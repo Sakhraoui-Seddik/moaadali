@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Smooch&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*      Heading Part       */
+
+.header{
+    position: relative;
+}
+.main-img{
+    width: 100%;
+    height: 100vh;
+}
+#container{
+    width: 100%;
+    position: absolute;
+    top: 0%;
+}
+
+.main-text{
+    margin-left: 3.5rem;
+    margin-top: 7.3rem;
+}
+.main-header{
+    font-size: 5rem; 
+}
+
+
+.main-p{
+    color: #989898;
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 1rem;
+}
+/*
+.main-btn{
+    margin-top: 6rem;
+    padding: 0.4rem 2rem 0.4rem 2rem;
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient(150deg, rgba(255,104,10,1) 60%, rgba(255,0,181,1) 81%);
+    border: none;
+}
+.main-btn:hover{
+    box-shadow: rgba(255,104,10,1) 0px 0px 20px 0px;
+}
+*/
+
+
+
+.button-anon-pen {
+    width: 100px;
+    background-image: linear-gradient(115deg, #4fcf70, #fad648, #a767e5, #12bcfe, #44ce7b);
+    text-align: center;
+    color: #000;
+    text-decoration: none;
+    display: block;
+    margin-top: 6rem;
+    font-weight: normal;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.button-anon-pen:hover {
+    animation: play 1.6s ease-in infinite;
+}
+
+.button-anon-pen span {
+    font-size: 16px;
+    padding: 3px 0;
+    display: block;
+    margin: 3px;
+    background: #fff;
+    border-radius: 3px;
+}
+.button-anon-pen span:hover{
+    color: #fff;
+    background: #000;
+}
+@keyframes play {
+    0% {
+        background-position: 0px;
+    }
+    20% {
+        background-position: -110px;
+    }
+    35% {
+        background-position: -180px;
+    }
+    50% {
+        background-position: -210px;
+    }
+    80% {
+        background-position: -350px;
+    }
+    100% {
+        background-position: -390px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*      Navbar       */
+
+
+.navbar-nav{
+    margin-right: 16rem;
+}
+
+.navbar-brand{
+    font-family: 'Smooch', cursive;
+    margin-left: 3.5rem;
+}
+#lg-p1{
+    color: #98c822;
+}
+#lg-p2{
+    color: rgba(255,0,181,1);
+}
+#lg-p3{
+    color: rgba(255,145,77,1);
+}
+#lg-p4{
+    color: rgba(183,48,98,1);
+}
+.nav-link{
+    color: #fff;
+    transition: .2s;
+    padding-left: 0.7rem;
+}
+
+.nav-link:hover{
+    color: #000;
+    background: #fff;
+    border-radius: 15px;
+}
+
+
+
+
+.reveal{
+    position: relative;
+    transform: translateY(144px);
+    opacity: 0;
+    transition: 1s all ease;
+}
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*      Part One       */
+
+.part1{
+    text-align: center;
+    background: linear-gradient(10deg, rgba(132,94,194,1) 15%, rgba(214,93,177,1) 31%, rgba(255,111,145,1) 48%, rgba(255,150,113,1) 64%, rgba(255,199,95,1) 80%, rgba(249,248,113,1) 96%);
+}
+.headers{
+    font-size: 3rem;
+    padding-top: 7rem;
+    font-family: 'Smooch', cursive;
+}
+.part1-header{
+    color: #fff;
+}
+#container-one{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.icon{
+    font-size: 6rem;
+    color: #fff;
+    
+    margin-bottom: 10rem;
+}
+
+.visually-hidden{
+    color: #000;
+}
+
+.slider-header{
+    color: #fff7f8;
+    padding-top: 3rem;
+    font-weight: bolder;
+}
+.slider-paragraph{
+    color: #fbe6e2;
+}
+
+
+/*      Part two       */
+
+.part2{
+    text-align: center;
+    padding-bottom: 5rem;
+    background-color: #fcfcfc;
+    
+}
+.part2-header{
+    color: #000;
+}
+.main-section{
+    padding-top: 6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    border: none;
+    border-bottom: 1px solid lightgray;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+.card-header{
+    padding: 1rem;
+}
+
+
+
+.list-group{
+    border: 1px solid lightgray;
+}
+
+.list-group-item{
+    cursor: pointer;
+    padding: 0.7rem;
+    font-weight: 500;
+}
+
+.list-group-item:hover{
+    background-color: #f1f1f1f1;
+}
+
+a{
+    text-decoration: none;
+}
+
+.dropdown{
+    position: relative;
+}
+
+
+.card-text{
+    color: #fff;
+    padding: 2rem;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0px;
+    background: rgba(0,0,0,0.7);
+    opacity: 1;
+    height: 230px;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    
+  }
+  
+.void{
+      list-style: none;
+      height: 47px;
+      background-color: #f1f1f1f1;
+  }
+  
+  
+.dropdown:hover .dropdown-content {
+      display: block;
+      transition: 0.9s;
+    }
+  
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+.Primaire{
+    background-color: #9270c9;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: default;
+}
+.Primaire:hover{
+    background-color: #845ec2;
+}
+
+
+.Moyen{
+    background-color: #ff6b8e;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: default;
+}
+.Moyen:hover{
+    background-color: #ff527b;
+}
+
+
+.Secondaire{
+    background-color: #ffcc26;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: default;
+}
+.Secondaire:hover{
+    background-color: #ffc70f;
+}
+
+
+.Holder{
+    width: 100%;
+    margin-top: 3rem;
+    background: linear-gradient(10deg, rgba(132,94,194,1) 15%, rgba(214,93,177,1) 31%, rgba(255,111,145,1) 48%, rgba(255,150,113,1) 64%, rgba(255,199,95,1) 80%, rgba(249,248,113,1) 96%);
+}
+.footer-img{
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+}
+
+.fa-brands{
+    font-size: 35px;
+    cursor: pointer;
+}
+.fa-brands:hover{
+    font-size: 38px;
+    color: #fff;
+    transition: .3s;
+}
+.footer-txt{
+    color: #fff;
+    font-size: 18px;
+}
+
+@media screen and (max-width: 910px) {
+    .main-section{display: flex; flex-direction: column; justify-content: center;}
+    .card{margin-bottom: 3rem; margin: 0 auto 3rem auto;}
+}
+
+@media screen and (max-width: 1180px) {
+    .main-header{font-size: 4rem;}
+}
+@media screen and (max-width: 960px){
+    .navbar-brand{margin-left: 0;}
+    .main-text{margin-left: 0.6rem;}
+    .main-img{height: 500px;}
+    .main-header{font-size: 1.7rem;}
+    .main-p{font-size: 0.3rem; line-height: 10px;}
+    .main-btn{font-size: 0.5rem; padding: 0.2rem 0.8rem 0.2rem 0.8rem;}
+}
+@media screen and (max-width: 990px){
+    .nav-link{color: #000; font-size: 12px;}
+    .nav-link:hover{background-color: #000; color: #fff;}
+    .button-anon-pen{width: 70px; margin-top: 5rem;}
+    .button-anon-pen span{font-size: 10px;}
+}
